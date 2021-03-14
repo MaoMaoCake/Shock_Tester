@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="dev.css">
+
+</head>
+    <body>
+        <H1>Tool For Measuring Shock</H1>
+        <div class="main-body">
+
+            <div class="top-row">
+                <div id="force-chart" class="container"></div>
+            </div>
+
+            <div class="middle-row">
+                <div class="middle-content">
+                    <div class="force">
+                        <label for="force">Force:</label>
+                        <H2 id="force" class="force">temporary</H2>
+                    </div>
+
+                    <ul>
+                        <li><button onclick="start()">Start</button></li>
+                        <li><button onclick="stop()">Stop</button></li>
+                        <li><button onclick="reset_graph()">Reset</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom-row">
+                <div class="bottom-content">
+                    <ul>
+                        <li><button onclick="up()"> Up</button></li>
+                        <li><button onclick="down()">Down</button></li>
+<!--                        <li><button>-</button></li>-->
+<!--                        <li><label for="speed"></label>-->
+<!--                            <input id="speed" type="text" maxlength="3" size="3"></li>-->
+<!--                        <li><button>+</button></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- js libraries for chart-->
+        <script src="../dependencies/highcharts/highcharts.js"></script>
+        <script src="graph.js"></script>
+        <script src="button.js"></script>
+    </body>
+</html>

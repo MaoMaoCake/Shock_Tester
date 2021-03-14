@@ -104,3 +104,44 @@ input, select {
 /* standardised looks across browsers */
 
 /* my code starts here */
+
+/* Middle Contents */
+.middle-row .middle-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 15px;
+}
+
+.middle-row .middle-content label{
+    font-size:30px;
+}
+
+.middle-row .middle-content h2{
+    font-size:30px;
+}
+
+.middle-row .middle-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+}
+
+.middle-row .middle-content .force{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* Bottom elements */
+
+.bottom-row .bottom-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+}

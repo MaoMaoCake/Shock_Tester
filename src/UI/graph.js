@@ -36,4 +36,5 @@ setInterval(function ( ) {
   };
   xhttp.open("GET", "/temperature", true);
   xhttp.send();
-}, 10 ) ; //delay for 10 microsec
+}, 1000 ) ; //delay for 10 microseconds
+
